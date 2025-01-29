@@ -1,6 +1,10 @@
 .produtos {
     display: flex;
     justify-content: space-around;
+    background-color: #041A04;
+    align-items: center;
+    border-radius: 10px;
+    margin: 50px 0;
 }
 
 .produtos figure img {
@@ -19,19 +23,19 @@ figcaption h3 {
 figcaption p {
     display: flex;
     text-overflow: ellipsis;
-    text-align:unset;
-    margin: 10px 40px ;
+    text-align:start;
+    margin: 10px 30px ;
     color: #FDFFFE;
 }
 
 .produtos figure {
-    background-color: #041A04;
+    background-color: #031503;
     width: 250px;
     height: 380px;
     border-radius: 20px;
     text-align: center;
-    margin: 50px 0 0 0;
-    padding: 10px;
+    margin: 50px 0 ;
+    padding: 20px;
 }
 
 hr {
