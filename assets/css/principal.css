@@ -1,0 +1,27 @@
+.principal {
+display: flex;
+align-items: center;
+}
+
+.principal img {
+    width: 930px;
+    height: 676px;
+    margin: 2px 80px;
+    border-radius: 10px;
+}
+
+.principal-text {
+    margin: 15px 80px;
+}
+
+.principal-text h2 {
+    font-size: 2rem;
+    margin: 0 0 10px 10px;
+    text-align: center;
+    
+}
+
+.principal-text p {
+    font-size: 1.3rem;
+    text-align: justify;
+}

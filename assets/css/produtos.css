@@ -1,0 +1,39 @@
+.produtos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produtos figure img {
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+figcaption h3 {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #FDFFFE;
+}
+
+figcaption p {
+    display: flex;
+    text-overflow: ellipsis;
+    text-align:unset;
+    margin: 10px 40px ;
+    color: #FDFFFE;
+}
+
+.produtos figure {
+    background-color: #041A04;
+    width: 250px;
+    height: 380px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 50px 0 0 0;
+    padding: 10px;
+}
+
+hr {
+    margin: 0 20px;
+}
