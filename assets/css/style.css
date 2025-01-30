@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 body {
@@ -14,21 +14,24 @@ body {
     background-color: #FDFFFE;
 }
 
-header{
+header {
     background-color: #041A04;
 }
 
 header nav {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
 }
 
 .logo {
     width: 140px;
+    height: 70px;
 }
 
-.menu,.icons {
+
+.menu,
+.icons {
     list-style: none;
     display: flex;
     gap: 10px;
@@ -41,19 +44,19 @@ header nav {
 
 .icons li a {
     padding: 5px 5px;
-} 
+}
 
-.menu li a ,.icons li a {
+.menu li a,
+.icons li a {
     color: #C4A939;
     text-decoration: none;
-    border-radius: 12px;
     font-size: 1.5rem;
     font-weight: 500;
 }
 
-.menu li a:hover, .icons li a:hover{
+.menu li a:hover,
+.icons li a:hover {
     color: #FDFFFE;
-    
     text-decoration: underline;
 }
 
@@ -64,4 +67,30 @@ header nav {
 .banner {
     width: 100%;
     display: block;
+}
+
+@media (max-width: 768px) {
+    .icons li a {
+        visibility: hidden;
+    }
+
+    .logo {
+        width: 100px;
+        height: 50px;
+        margin: 0 60px 0 0;
+    }
+
+    .menu li a {
+        font-size: 1rem;
+
+    }
+
+
+
+
+
+
+
+
+
 }

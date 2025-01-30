@@ -2,15 +2,26 @@
     display: flex;
     justify-content: space-around;
     background-color: #041A04;
-    align-items: center;
+    align-items: flex-start;
     border-radius: 10px;
     margin: 50px 0;
+    flex-wrap: wrap;
+}
+
+#produtos figure {
+    background-color: #061403;
+    width: 90%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
 }
 
 #produtos figure img {
-    width: 200px;
-    height: 230px;
-    align-items: center;
+    width: 100%;
+    height: auto;
     border-radius: 5px;
 }
 
@@ -23,21 +34,39 @@ figcaption h3 {
 figcaption p {
     display: flex;
     text-overflow: ellipsis;
-    text-align:start;
-    margin: 10px 30px ;
+    text-align: start;
+    margin: 10px 0;
     color: #FDFFFE;
 }
 
-#produtos figure {
-    background-color: #061403;
-    width: 250px;
-    height: 380px;
-    border-radius: 20px;
-    text-align: center;
-    margin: 50px 0 ;
-    padding: 30px;
+
+@media (max-width: 768px) {
+    #produtos {
+        justify-content: center;
+    }
+
+    #produtos figure {
+        width: 90%;
+        max-width: 200px;
+    }
+
+    figcaption h3 {
+        font-size: 1.2rem;
+    }
+
+    figcaption p {
+        font-size: 0.9rem;
+    }
 }
 
-hr {
-    margin: 0 20px;
+@media (max-width: 480px) {
+    #produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #produtos figure {
+        width: 100%;
+        max-width: none;
+    }
 }
