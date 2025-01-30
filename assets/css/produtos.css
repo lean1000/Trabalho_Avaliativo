@@ -1,4 +1,4 @@
-.produtos {
+#produtos {
     display: flex;
     justify-content: space-around;
     background-color: #041A04;
@@ -7,11 +7,11 @@
     margin: 50px 0;
 }
 
-.produtos figure img {
+#produtos figure img {
     width: 200px;
-    height: 200px;
+    height: 230px;
     align-items: center;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 figcaption h3 {
@@ -28,14 +28,14 @@ figcaption p {
     color: #FDFFFE;
 }
 
-.produtos figure {
-    background-color: #031503;
+#produtos figure {
+    background-color: #061403;
     width: 250px;
     height: 380px;
     border-radius: 20px;
     text-align: center;
     margin: 50px 0 ;
-    padding: 20px;
+    padding: 30px;
 }
 
 hr {
